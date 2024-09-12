@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS examples</title>
+    <script>
+
+    let name = 'Kumudu';
+    const age = 35;
+   
+    name = "Saman";
+    name = "Kumara";
+    
+    let cars = ['Toytoa', 'Honda', 'Kia', 'BMW', 'Audi'];
+
+    let vehicales = ['Truck', 'Jeep', 'Bikes', cars];
+
+    let arrayValue = vehicales[3][1];
+    
+    // console.log(vehicales);
+    // console.log(arrayValue);
+
+
+    // Object
+    let sampleObject = 
+    {
+    name:'Kumudu', 
+    phone:0112345678, 
+    address:'Kandy',
+    married:true,
+    vehicales:vehicales 
+    }
+
+    let cars2 = ['Toytoa', 'Honda', 'Kia', 'BMW', 'Audi', sampleObject];
+
+
+  
+   let result =  cars2[5].vehicales[3][2];
+
+   console.log(result)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

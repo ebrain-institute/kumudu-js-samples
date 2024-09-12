@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condition</title>
+</head>
+<body>
+<script>
+
+const firstNumber = 15;
+const seccondNumber = 60;
+
+const total = firstNumber + seccondNumber;
+let result;
+
+if(total >= 75){
+    result = 'A';
+}
+else if(total >= 65){
+    result = 'B';
+}
+else if(total >= 55){
+    result = 'C';
+}
+else if(total >= 35){
+    result = 'S';
+}
+else{
+   result = 'W';
+}
+
+// console.log(result)
+
+const cashInHand = 99;
+const expenses = 50;
+
+
+if(expenses * 2 <= cashInHand){
+    console.log('Do it');
+}else{
+    console.log('Go home');
+}
+
+// Ternary 
+// expenses * 2 <= cashInHand ? console.log('Do it') : console.log('Go home');
+
+</script>
+</body>
+</html>
