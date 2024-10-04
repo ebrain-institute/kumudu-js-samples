@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops</title>
+</head>
+<script>
+//Loops
+
+    //While loops
+
+    let i = 0;
+    while(i <= 10){
+        // console.log(i);
+        // i = i+1;
+        i++;
+    }
+ 
+
+    //For loop
+    for(let i = 0; i <=10; i++){
+        // console.log(i);
+    }
+
+    // Do...while
+    let j = 0;
+    do{
+        // console.log(j);
+        j++;
+    }while(j <= 10);
+
+
+  // Array loop  
+  const fruits = ["Banana", "Orange", "Apple", "Mango"];
+   
+  let index = 0; 
+
+  while(fruits.length > index){
+
+    //    console.log(fruits[index]);
+       index++;
+  }
+
+
+// Array Method
+
+const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
+
+ // Map
+    fruits2.map((x)=>{
+            console.log(x);
+    });
+
+ // For each
+    fruits2.forEach((x)=>{
+            console.log(x);
+    });
+
+// Filter 
+    fruits2.filter((x)=>{
+           if(x === "Banana"){
+                console.log(x);
+           }
+    });   
+
+
+
+</script>
+<body>
+    
+</body>
+</html>
